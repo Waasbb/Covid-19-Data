@@ -15,24 +15,15 @@
 ## Environment Set-up
 <img width="709" alt="Enviroment set up" src="https://user-images.githubusercontent.com/83560277/117481984-bdf2db00-af31-11eb-8ad1-fb086ac30259.PNG">
 
-**Azure SQL DB** 
-- Will use SQL DB to store our reports.
+| Azure Services  | Description |
+| ------------- | -------------------------------------------- |
+| **Azure SQL DB** | Will use SQL DB to store our reports  |
+| **Azure Data Factory**  | We need this for ingestion and transformation of the raw data. We will also use data flow which is part of ADF.  |
+| **Azure Blob Storage** | This will be used for population data and for the script will use for the HDInsight transformation.  |
+| **Azure Data Lake Storage Gen2**  | To store our ingested and transformed data.  |
+| **Azure Databricks Clusters** | For Transformation of the data.  |
+| **HD Insight Clsuter**  | For Transformation of the data.  |
  
-**Azure Data Factory**
-- We need this for ingestion and transformation of the raw data. 
-- We will also use data flow which is part of ADF.
-
-**Azure Blob Storage**
-- This will be used for population data and for the script will use for the HDInsight transformation.
-
-**Azure Data Lake Storage Gen2**
-- To store our ingested and transformed data.
-  
-**Azure Databricks Clusters**
-- For Transformation of the data.
-
-**HD Insight Clsuter**
-- For Transformation of the data.
 
 
 
