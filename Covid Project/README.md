@@ -1,4 +1,4 @@
-# Covid-19-Data
+# Project on Covid19
 
 ## Cloud Services Used
 - Azure Data Factory
@@ -15,6 +15,8 @@
 ## Environment Set-up
 <img width="709" alt="Enviroment set up" src="https://user-images.githubusercontent.com/83560277/117481984-bdf2db00-af31-11eb-8ad1-fb086ac30259.PNG">
 
+
+## Cloud Services Used
 | Azure Services  | Description |
 | ------------- | -------------------------------------------- |
 | **Azure SQL DB** | Will use SQL DB to store our reports  |
@@ -23,6 +25,14 @@
 | **Azure Data Lake Storage Gen2**  | To store our ingested and transformed data.  |
 | **Azure Databricks Clusters** | For Transformation of the data.  |
 | **HD Insight Clsuter**  | For Transformation of the data.  |
+## Cloud Services Used
+- Azure Data Factory
+- Azure Data Lake
+- Azure Data Warehouse
+- Azure Blob Storage
+- Azure HDInsight
+- Azure Databricks
+- Azure SQL DB
  
 
 
