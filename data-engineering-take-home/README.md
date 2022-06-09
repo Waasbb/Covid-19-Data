@@ -1,4 +1,4 @@
-# data-engineering-take-home solution #
+# Data-Engineering-Take-Home Solution #
 
 ## How to run app once LocalStack has started
 
