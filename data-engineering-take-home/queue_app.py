@@ -14,8 +14,8 @@ def transform(ip, device_id):
 
     print("Transforming Data..." + ip + " " + device_id)
 
-    mask_ip = hashlib.sha256(b"{ip}")
-    mask_device_id = hashlib.sha256(b"{device_id}")
+    mask_ip = hashlib.sha256(ip.encode('UTF-8'))
+    mask_device_id = hashlib.sha256(device_id.encode('UTF-8'))
 
     ip_dig = mask_ip.hexdigest()
     dev_dig = mask_device_id.hexdigest()
@@ -96,7 +96,6 @@ def read_messages():
             if response['Messages'][0] == "":
                 loop = False
         except:
-            loop = False
             print("Done...no more data")
             break
 
