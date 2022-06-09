@@ -1,6 +1,4 @@
-# Fetch Rewards #
-## Data Engineering Take Home: ETL off a SQS Qeueue ##
-
+# data-engineering-take-home solution #
 
 ## How to run app once LocalStack has started
 
