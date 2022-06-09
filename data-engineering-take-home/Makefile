@@ -17,7 +17,7 @@ pip-install:
 
 .PHONY: docker
 start:
-	docker-compose up -d
+	docker-compose up -d 
 stop:
 	docker-compose down --remove-orphans
 clean:
